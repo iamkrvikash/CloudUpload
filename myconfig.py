@@ -1,6 +1,6 @@
 word_size = 2
 # Number of words in the memory
-num_words = 2
+num_words = 16
 
 # Technology to use in $OPENRAM_TECH
 tech_name = "scn4m_subm"
@@ -16,7 +16,7 @@ nominal_corner_only = True
 #temperatures = [ 27 ]
 
 # Output directory for the results
-output_path= "temp_2"
+output_path= "temp"
 #OUtput file base name
 output_name = "sram_{0}_{1}_{2}".format(word_size,num_words,tech_name)
 
