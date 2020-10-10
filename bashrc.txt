@@ -11,19 +11,31 @@ if [ -f /etc/bashrc ]; then
 fi
 
 ## Environment variables for NGSpice
-export  SPICE_LIB_DIR="$HOME/project2020/eda/ngspice-32/glnxa64/share/ngspice"
-export  SPICE_EXEC_DIR="$HOME/project2020/eda/ngspice-32/glnxa64/bin"
+export  SPICE_LIB_DIR="$HOME/projects/project2020/eda/ngspice-32/glnxa64/share/ngspice"
+export  SPICE_EXEC_DIR="$HOME/projects/project2020/eda/ngspice-32/glnxa64/bin"
 export  PATH="$PATH:$SPICE_EXEC_DIR"
 
 ## Environment variables for CppSimLite
-export CPPSIMHOME="$HOME/project2020/eda/CppSimLite"
+export CPPSIMHOME="$HOME/projects/project2020/eda/CppSimLite"
 export CPPSIMSHAREDHOME="$CPPSIMHOME/CppSimShared"
-export PATH="$PATH:$CPPSIMSHAREDHOME/bin"
+export PATH="$PATH:$CPPSIMSHAREDHOME/bin:$SPICE_EXEC_DIR"
 
 ## EDITOR is required to create or modify files from Sue2
 export EDITOR=/usr/bin/vim
 
 ## Environment Variable for OpenRAM
-export OPENRAM_HOME="$HOME/OpenRAM/compiler"
-export OPENRAM_TECH="$HOME/OpenRAM/technology"
+export OPENRAM_HOME="$HOME/projects/OpenRAM/compiler"
+export OPENRAM_TECH="$HOME/projects/OpenRAM/technology"
 export PYTHONPATH="$PYTHONPATH:$OPENRAM_HOME"
+
+## Environment variable for Magic
+export MAGIC_HOME="$HOME/projects/project2020/eda/magic-83"
+export CAD_ROOT="$MAGIC_HOME/lib"
+export PATH="$PATH:$MAGIC_HOME/bin"
+
+##Environment variable for NetGen
+export NETGEN_HOME="$HOME/projects/project2020/eda/netgen-15"
+export PATH="$PATH:$NETGEN_HOME/bin"
+
+#Shortcut for magic -rcfile
+export RCFILE_PATH="$HOME/projects/OpenRAM/technology/scn4m_subm/tech"
