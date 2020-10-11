@@ -1,0 +1,64 @@
+|==============================================================================|
+|=========                       OpenRAM v1.1.6                       =========|
+|=========                                                            =========|
+|=========               VLSI Design and Automation Lab               =========|
+|=========        Computer Science and Engineering Department         =========|
+|=========            University of California Santa Cruz             =========|
+|=========                                                            =========|
+|=========          Usage help: openram-user-group@ucsc.edu           =========|
+|=========        Development help: openram-dev-group@ucsc.edu        =========|
+|=========           Temp dir: /tmp/openram_vlsi_1657_temp/           =========|
+|=========                See LICENSE for license info                =========|
+|==============================================================================|
+** Start: 09/11/2020 18:08:39
+Technology: scn4m_subm
+Total size: 32 bits
+Word size: 2
+Words: 16
+Banks: 1
+Write size: None
+RW ports: 1
+R-only ports: 0
+W-only ports: 0
+Design supply routing skipped. Supplies will have multiple must-connect pins. (route_supplies=True to enable supply routing).
+DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+Only characterizing nominal corner.
+Words per row: 1
+Output files are: 
+/home/vlsi/Documents/temp_2/sram_2_16_scn4m_subm.lvs
+/home/vlsi/Documents/temp_2/sram_2_16_scn4m_subm.sp
+/home/vlsi/Documents/temp_2/sram_2_16_scn4m_subm.v
+/home/vlsi/Documents/temp_2/sram_2_16_scn4m_subm.lib
+/home/vlsi/Documents/temp_2/sram_2_16_scn4m_subm.py
+/home/vlsi/Documents/temp_2/sram_2_16_scn4m_subm.html
+/home/vlsi/Documents/temp_2/sram_2_16_scn4m_subm.log
+/home/vlsi/Documents/temp_2/sram_2_16_scn4m_subm.lef
+/home/vlsi/Documents/temp_2/sram_2_16_scn4m_subm.gds
+** Submodules: 4.0 seconds
+** Placement: 0.0 seconds
+** Routing: 0.2 seconds
+WARNING: file none.py: line 23: DRC unable to run.
+
+WARNING: file none.py: line 32: LVS unable to run.
+
+** Verification: 1.2 seconds
+** SRAM creation: 5.5 seconds
+LEF: Writing to /home/vlsi/Documents/temp_2/sram_2_16_scn4m_subm.lef
+** LEF: 2.3 seconds
+GDS: Writing to /home/vlsi/Documents/temp_2/sram_2_16_scn4m_subm.gds
+** GDS: 0.4 seconds
+SP: Writing to /home/vlsi/Documents/temp_2/sram_2_16_scn4m_subm.sp
+** Spice writing: 0.0 seconds
+LVS: Writing to /home/vlsi/Documents/temp_2/sram_2_16_scn4m_subm.lvs
+** LVS writing: 0.0 seconds
+LIB: Characterizing... 
+** Characterization: 0.6 seconds
+Config: Writing to /home/vlsi/Documents/temp_2/sram_2_16_scn4m_subm.py
+** Config: 0.0 seconds
+Datasheet: Writing to /home/vlsi/Documents/temp_2/sram_2_16_scn4m_subm.html
+** Datasheet: 0.1 seconds
+Verilog: Writing to /home/vlsi/Documents/temp_2/sram_2_16_scn4m_subm.v
+** Verilog: 0.0 seconds
+** End: 9.1 seconds
