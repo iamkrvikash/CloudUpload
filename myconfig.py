@@ -1,4 +1,4 @@
-word_size = 2
+
 # Number of words in the memory
 num_words = 16
 
