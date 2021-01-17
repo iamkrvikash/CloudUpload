@@ -10,7 +10,7 @@ if [ -f /etc/bashrc ]; then
 	./etc/bashrc
 fi
 
-## Environment variables for NGSpice
+## Environment variables for NGSpice simulations
 export  SPICE_LIB_DIR="$HOME/projects/project2020/eda/ngspice-32/glnxa64/share/ngspice"
 export  SPICE_EXEC_DIR="$HOME/projects/project2020/eda/ngspice-32/glnxa64/bin"
 export  PATH="$PATH:$SPICE_EXEC_DIR"
